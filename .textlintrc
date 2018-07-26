@@ -1,0 +1,24 @@
+{
+  "plugins": [
+    "html"
+  ],
+  "rules": {
+    "max-ten": {
+      "max": 4
+    },
+    "general-novel-style-ja": {
+      "space_after_marks": false,
+      "max_arabic_numeral_digits": false
+    },
+    "ja-no-abusage": true,
+    "ja-no-mixed-period": true,
+    "ja-hiragana-hojodoushi": true,
+    "ja-hiragana-fukushi": true,
+    "ja-hiragana-keishikimeishi": true,
+    "no-mix-dearu-desumasu": true,
+    "no-double-negative-ja": true,
+    "no-doubled-conjunction": true,
+    "no-doubled-conjunctive-particle-ga": true,
+    "no-dropping-the-ra": true
+  }
+}

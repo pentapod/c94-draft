@@ -1,0 +1,42 @@
+// font
+
+//$body-font = 400 8.5pt SourceHanSansJP, sans-serif
+// $body-font = 500 11px SourceHanSansJP, sans-serif
+$body-font = 400 11px NtodayStd, GothicMB101, "niveau-grotesk", SourceHanSansJP, sans-serif
+$body-line-height = 1.8
+// $heading-font-family = SourceHanSerifJP, serif
+$heading-font-family = NtodayStd, GothicMB101, "niveau-grotesk"
+$code-font-family = SourceCodePro, NtodayStd, GothicMB101, "niveau-grotesk", SourceHanSansJP monospace
+$nombre-font = 600 12px "niveau-grotesk", sans-serif
+$header-line-height = 1.2
+$pre-font = 500 11px $code-font-family
+$pre-line-height = 1.3
+
+// JIS B5
+$page-width = 182mm
+$page-height = 257mm
+
+$page-bleed = 3mm
+
+$page-margin-top = 20mm
+$page-margin-bottom = 20mm
+$page-margin-inner = 30mm
+$page-margin-outer = 15mm
+
+$side-column-width = 25mm
+
+$image-margin = .8rem
+
+$stretch = 5in
+
+$color-dominant = #4d655c
+$color-link-text = #2798bd
+$color-code-bg = #eae9e5
+$color-note-bg = #6b6467
+$color-note-code-bg = #4c4447
+$color-note-body = #ffffff
+
+page-extra-mixins()
+  // for publishing output
+  bleed: $page-bleed
+  marks: crop cross
