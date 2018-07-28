@@ -192,13 +192,15 @@ section#index
     li.index-item
       break-inside: avoid
 
-  #postscript,
-  #profile,
-  #colophon
+  #postscript
+  #profile
     margin-right: - $side-column-width
 
   #colophon
-    margin-top: 10rem
+    // margin-top: 10rem
+    margin-right: $side-column-width
+    float-reference: page
+    float: bottom
 
 h1, h2
   clear: both
